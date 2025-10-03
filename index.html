@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supermercado Bom Preço</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Supermercado Bom Preço</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Banner principal -->
+    <section class="banner">
+      <h2>Bem-vindo ao Supermercado Bom Preço!</h2>
+      <p>Qualidade, variedade e economia para você e sua família.</p>
+      <a class="btn" href="produtos.html">Confira nossas ofertas</a>
+    </section>
+
+    <!-- Destaques de produtos -->
+    <section class="destaques">
+      <h2>Destaques da Semana</h2>
+      <div class="produtos">
+        <div class="card">
+          <img src="img/arroz.jpg" alt="Feijão">
+          <h3>Arroz Branco 5kg</h3>
+          <p class="preco">R$ 22,90</p>
+          <a href="produtos.html" class="btn">Ver mais</a>
+        </div>
+
+        <div class="card">
+          <img src="img/feijao.jpg" alt="Feijão">
+          <h3>Feijão Carioca 1kg</h3>
+          <p class="preco">R$ 8,50</p>
+          <a href="produtos.html" class="btn">Ver mais</a>
+        </div>
+
+        <div class="card">
+          <img src="img/cafe.jpg" alt="Café">
+          <h3>Café Torrado 500g</h3>
+          <p class="preco">R$ 15,90</p>
+          <a href="produtos.html" class="btn">Ver mais</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Supermercado Bom Preço</p>
+  </footer>
+</body>
+</html>
+css/style.css (trecho extra para o banner e botões)
+/* Banner */
+.banner {
+  background: url('../img/banner.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.banner h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #218838;
+}
+
+/* Destaques */
+.destaques {
+  padding: 40px 20px;
+  text-align: center;
+} 
+   
