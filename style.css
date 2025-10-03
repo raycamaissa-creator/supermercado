@@ -38,7 +38,7 @@ nav a:hover {
 
 /* ===== Banner =====*/
 .banner {
-  background: url('../img/banner.jpg') center/cover no-repeat;
+  background: url('../banner.jpg') center/cover no-repeat;
   color: white;
   text-align: center;
   padding: 100px 20px;
